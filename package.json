@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "braveTest": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Day1_121525/brave-search.cy.js'",
-    "braveTestHeadless": "npx cypress run --browser chrome --spec cypress/e2e/Actionitem/brave-search.cy.js",
+    "braveTestHeadless": "npx cypress run --browser chrome --spec 'cypress/e2e/Actionitem/brave-search.cy.js'",
     "aiTest": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Homework/*'"
   },
   "devDependencies": {
