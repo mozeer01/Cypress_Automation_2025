@@ -21,7 +21,7 @@ video: true, //  enable video recording
       inlineAssets: true,
       saveAllAttempts: false,
       html: true,      //  generate HTML report
-      json: true,      //  do not generate JSON report
+      json: false,      //  do not generate JSON report
       overwrite: true,  //  overwrite existing report files
     }
 
